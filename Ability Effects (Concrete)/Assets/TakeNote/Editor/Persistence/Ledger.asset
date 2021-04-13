@@ -1,0 +1,456 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757c7930830877b47944add6103cde80, type: 3}
+  m_Name: Ledger
+  m_EditorClassIdentifier: 
+  OutstandingTasks:
+  - Title: Experiment 6
+    CreationDate: 13/01/2021 | 13:39
+    CompletionDate: 
+    HasDetails: 1
+    Details: Right now If a ball hits the object, it will always multi target. but
+      what if on execute I only want for example sound to play only once. I have
+      to distinguish those that should only play once from the other.
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4660377, g: 1, b: 0.8868791, a: 1}
+  - Title: Decorator Pattern Experiment 3E
+    CreationDate: 15/01/2021 | 06:21
+    CompletionDate: 
+    HasDetails: 1
+    Details: Create 3 leafs/composites
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.9245283, g: 0.12941177, b: 0.2627451, a: 1}
+  - Title: Spawn Object LF/CMP
+    CreationDate: 15/01/2021 | 07:48
+    CompletionDate: 
+    HasDetails: 1
+    Details: We need to be capable of switching the spawn position from a random
+      position to targeting a object position.
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.93333334, g: 0.38431376, b: 0.8913991, a: 1}
+  - Title: Find a good object pooling Package
+    CreationDate: 15/01/2021 | 08:19
+    CompletionDate: 
+    HasDetails: 0
+    Details: 
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.38431376, g: 0.81984794, b: 0.93333334, a: 1}
+  - Title: Optomise the code by removing linq
+    CreationDate: 15/01/2021 | 14:49
+    CompletionDate: 
+    HasDetails: 1
+    Details: Instead of using "To List" use for loop instead.
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Devise several different types of targeting.
+    CreationDate: 15/01/2021 | 15:01
+    CompletionDate: 
+    HasDetails: 1
+    Details: Look at many spells think about how they would work, should the component
+      system govern the behaviour of the spells vectors?
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Break down 3 League spells
+    CreationDate: 15/01/2021 | 15:02
+    CompletionDate: 
+    HasDetails: 1
+    Details: Convert 3 league spells into my component system and see if it still
+      holds up.
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Karthus/Soraka Ults
+    CreationDate: 15/01/2021 | 15:05
+    CompletionDate: 
+    HasDetails: 1
+    Details: 'Targeting => All Enemies/Ally.
+
+      For each unit (Simultaneously),
+      Take damage/Heal
+
+
+      For all "I Need A Target", give them the target unit.'
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Katarina Ultimate
+    CreationDate: 15/01/2021 | 15:21
+    CompletionDate: 
+    HasDetails: 1
+    Details: "Targeting => Up to 3 nearby Enemies.\n\nSo get a dictionary of Enemies
+      in a certain radius and also get their distance from the player.\n\nOn each
+      spin, find whose closest and send a dagger projectile to the targets.\n\nthe
+      dagger projectile is spawned (where?),  given a projectile component and gets
+      a target.\n \nThe damage composites are then delegated to it, to be used at
+      its discreton.\n\nWhen the dagger hits, it get the target and sends the target
+      to each INeed a target."
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Ezreal E
+    CreationDate: 15/01/2021 | 15:24
+    CompletionDate: 
+    HasDetails: 1
+    Details: 'Subject transform.position = target_Position
+
+      On execution of
+      movement paly particles and then send projectile to nearest enemy. the projectile
+      follows them and on hit does damage.'
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  CompletedTasks:
+  - Title: Experiment 3
+    CreationDate: 13/01/2021 | 04:59
+    CompletionDate: 13/01/2021 | 05:00
+    HasDetails: 1
+    Details: Tested Conditionals
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4745098, g: 0.39607844, b: 0.83137256, a: 1}
+  - Title: Experiment 4-1
+    CreationDate: 13/01/2021 | 05:51
+    CompletionDate: 13/01/2021 | 05:58
+    HasDetails: 1
+    Details: Copy the stuff from experiment 3 into experiment 4.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4745098, g: 0.39607844, b: 0.83137256, a: 1}
+  - Title: Experiment 4-2
+    CreationDate: 13/01/2021 | 06:00
+    CompletionDate: 13/01/2021 | 06:11
+    HasDetails: 1
+    Details: Create a leaf script called "Spawn_Object_LF", for now only make it
+      Do a debug.log message
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4745098, g: 0.39607844, b: 0.83137256, a: 1}
+  - Title: Experiment 4-3
+    CreationDate: 13/01/2021 | 06:14
+    CompletionDate: 13/01/2021 | 06:15
+    HasDetails: 1
+    Details: Create an object and set its location at the targets location.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4745098, g: 0.39607844, b: 0.83137256, a: 1}
+  - Title: Experiment 4-4
+    CreationDate: 13/01/2021 | 06:15
+    CompletionDate: 13/01/2021 | 06:18
+    HasDetails: 1
+    Details: Feed a gameobject to the spawnobject lf script and then instantiate
+      it.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4745098, g: 0.39607844, b: 0.83137256, a: 1}
+  - Title: Experiment 4-5
+    CreationDate: 13/01/2021 | 06:26
+    CompletionDate: 13/01/2021 | 06:30
+    HasDetails: 1
+    Details: Change up the node/compiste scripts  remvoing any unused methods.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4745098, g: 0.39607844, b: 0.83137256, a: 1}
+  - Title: Experiment 4-7
+    CreationDate: 13/01/2021 | 06:33
+    CompletionDate: 13/01/2021 | 06:37
+    HasDetails: 1
+    Details: Create a script with a reference to the users renderer.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4745098, g: 0.39607844, b: 0.83137256, a: 1}
+  - Title: Experiment 4-8
+    CreationDate: 13/01/2021 | 06:38
+    CompletionDate: 13/01/2021 | 07:20
+    HasDetails: 1
+    Details: Add the Spawnable object script to the prefab and now require the spawn
+      object script to need a reference to that script.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4745098, g: 0.39607844, b: 0.83137256, a: 1}
+  - Title: Experiment 4-6
+    CreationDate: 13/01/2021 | 06:32
+    CompletionDate: 13/01/2021 | 07:20
+    HasDetails: 1
+    Details: Instantiate a object but this time change its color to green before
+      hand
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4745098, g: 0.39607844, b: 0.83137256, a: 1}
+  - Title: Experiment 4
+    CreationDate: 13/01/2021 | 05:01
+    CompletionDate: 13/01/2021 | 07:20
+    HasDetails: 1
+    Details: Testing Instantiation of objects
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4745098, g: 0.39607844, b: 0.83137256, a: 1}
+  - Title: Experiment 5-1
+    CreationDate: 13/01/2021 | 07:34
+    CompletionDate: 13/01/2021 | 07:54
+    HasDetails: 1
+    Details: Copy things from Experiment 4 to 5
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 1, g: 0.84705883, b: 0, a: 1}
+  - Title: Experiment 5-2
+    CreationDate: 13/01/2021 | 09:07
+    CompletionDate: 13/01/2021 | 10:22
+    HasDetails: 1
+    Details: Create a spawn object composite that spawns a object
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 1, g: 0.84705883, b: 0, a: 1}
+  - Title: Experiment 5-3
+    CreationDate: 13/01/2021 | 10:35
+    CompletionDate: 13/01/2021 | 12:10
+    HasDetails: 1
+    Details: Create A Component Controller, Add it to the gameobject on spawning
+      (If it does not already have it).
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 1, g: 0.84705883, b: 0, a: 1}
+  - Title: Experiment 5-4
+    CreationDate: 13/01/2021 | 12:28
+    CompletionDate: 13/01/2021 | 12:34
+    HasDetails: 1
+    Details: Create a script that collects targets and does foreach target.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 1, g: 0.84705883, b: 0, a: 1}
+  - Title: Experiment 5-5
+    CreationDate: 13/01/2021 | 12:46
+    CompletionDate: 13/01/2021 | 12:50
+    HasDetails: 1
+    Details: Get a reference to the component controller.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 1, g: 0.84705883, b: 0, a: 1}
+  - Title: Experiment 5
+    CreationDate: 13/01/2021 | 07:34
+    CompletionDate: 13/01/2021 | 12:59
+    HasDetails: 1
+    Details: Make a targeting script, which is a composite, a object is spawned,
+      the object contains the children from the composite and can execute the chidlren
+      when it wishes.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 1, g: 0.84705883, b: 0, a: 1}
+  - Title: Experiment 6-1
+    CreationDate: 13/01/2021 | 13:43
+    CompletionDate: 13/01/2021 | 15:42
+    HasDetails: 1
+    Details: Make a script that only executes children once.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.4660377, g: 1, b: 0.8868791, a: 1}
+  - Title: Decorator Pattern- Experiment 1
+    CreationDate: 13/01/2021 | 16:49
+    CompletionDate: 13/01/2021 | 17:27
+    HasDetails: 1
+    Details: Using this as a way to get a collection of all the child objects and
+      their children
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.5660378, g: 0.25845498, b: 0.5582025, a: 1}
+  - Title: Decorator Pattern- Experiment 2-1
+    CreationDate: 14/01/2021 | 06:22
+    CompletionDate: 14/01/2021 | 07:03
+    HasDetails: 1
+    Details: Create a base component
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.5647059, g: 0.25882354, b: 0.5568628, a: 1}
+  - Title: Decorator Pattern- Experiment 2-2
+    CreationDate: 14/01/2021 | 07:22
+    CompletionDate: 14/01/2021 | 07:29
+    HasDetails: 1
+    Details: Make a library for the deep opy componet, also make a cloneable interface
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.5647059, g: 0.25882354, b: 0.5568628, a: 1}
+  - Title: Decorator Pattern- Experiment 2-3
+    CreationDate: 14/01/2021 | 08:25
+    CompletionDate: 14/01/2021 | 08:35
+    HasDetails: 1
+    Details: Use a strategy pattern to switch up the component.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.5647059, g: 0.25882354, b: 0.5568628, a: 1}
+  - Title: Decorator Pattern- Experiment 2-4
+    CreationDate: 14/01/2021 | 08:35
+    CompletionDate: 14/01/2021 | 09:52
+    HasDetails: 1
+    Details: Test what I have already done.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.5647059, g: 0.25882354, b: 0.5568628, a: 1}
+  - Title: Decorator Pattern- Experiment 3-1
+    CreationDate: 14/01/2021 | 11:06
+    CompletionDate: 14/01/2021 | 11:11
+    HasDetails: 1
+    Details: Create a composite clas which will allow people to add/remove children
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.57615435, g: 0.9622642, b: 0.07625483, a: 1}
+  - Title: Decorator Pattern- Experiment 3-2
+    CreationDate: 14/01/2021 | 11:26
+    CompletionDate: 14/01/2021 | 15:08
+    HasDetails: 1
+    Details: 'Recreate the indentations using a internal depth counter.
+
+      No
+      longer needing execute to take any parameters'
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.57615435, g: 0.9622642, b: 0.07625483, a: 1}
+  - Title: Decorator Pattern- Experiment 3
+    CreationDate: 14/01/2021 | 09:53
+    CompletionDate: 14/01/2021 | 15:08
+    HasDetails: 1
+    Details: Make the component refer to the previous component.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.57615435, g: 0.9622642, b: 0.07625483, a: 1}
+  - Title: Decorator Pattern Experiment 3B - 1
+    CreationDate: 14/01/2021 | 15:09
+    CompletionDate: 14/01/2021 | 17:28
+    HasDetails: 1
+    Details: Create a leaf node
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Decorator Pattern Experiment 3C
+    CreationDate: 14/01/2021 | 17:32
+    CompletionDate: 14/01/2021 | 17:47
+    HasDetails: 1
+    Details: Make a leaf that changes the color of the cube
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.03720181, g: 0.5500185, b: 0.8962264, a: 1}
+  - Title: Decorator Pattern 3D
+    CreationDate: 14/01/2021 | 18:07
+    CompletionDate: 14/01/2021 | 18:08
+    HasDetails: 1
+    Details: Make a Conditional Composite.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Decorator Pattern Experiment 3E-1
+    CreationDate: 15/01/2021 | 06:21
+    CompletionDate: 15/01/2021 | 07:48
+    HasDetails: 1
+    Details: Create a node that instanatiates a object
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.9245283, g: 0.12941177, b: 0.2627451, a: 1}
+  - Title: Decorator Pattern Experiment 3E-2
+    CreationDate: 15/01/2021 | 07:52
+    CompletionDate: 15/01/2021 | 09:06
+    HasDetails: 1
+    Details: Add a rotation script to a Object
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.9245283, g: 0.12941177, b: 0.2627451, a: 1}
+  - Title: Decorator Pattern Experiment 3E-3
+    CreationDate: 15/01/2021 | 08:13
+    CompletionDate: 15/01/2021 | 09:06
+    HasDetails: 1
+    Details: Create leaf that can make one object the child of another
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 0.9245283, g: 0.12941177, b: 0.2627451, a: 1}
+  - Title: Delegate CMP - 1
+    CreationDate: 15/01/2021 | 14:08
+    CompletionDate: 15/01/2021 | 14:49
+    HasDetails: 1
+    Details: Create a script that gives a certain object a Client providing it does
+      not already have one.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Delegate CMP- 2
+    CreationDate: 15/01/2021 | 14:39
+    CompletionDate: 15/01/2021 | 14:50
+    HasDetails: 1
+    Details: Create a new component and send it over to the client on execute.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Create a reset interface
+    CreationDate: 15/01/2021 | 18:39
+    CompletionDate: 15/01/2021 | 18:47
+    HasDetails: 0
+    Details: 
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 1
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Make a Echo Component
+    CreationDate: 15/01/2021 | 19:47
+    CompletionDate: 15/01/2021 | 20:14
+    HasDetails: 1
+    Details: The component can execute its children more than once, with a timed
+      delay.
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  DeferredTasks: []
